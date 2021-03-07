@@ -22,7 +22,7 @@ dependencies {
   implementation(platform("org.jetbrains.kotlin:kotlin-bom"))
   implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8")
 //  compile("com.github.kotlin-graphics:imgui:-SNAPSHOT")
-  implementation("com.github.kotlin-graphics.imgui:bgfx:b340be6257")
+  implementation("com.github.kotlin-graphics.imgui:bgfx:-SNAPSHOT")
   implementation(platform("org.lwjgl:lwjgl-bom:${findProperty("lwjglVersion")}"))
 
   val lwjglNatives = when (OperatingSystem.current()) {
